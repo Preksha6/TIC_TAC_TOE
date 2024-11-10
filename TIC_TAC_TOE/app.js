@@ -54,7 +54,7 @@ const enablebtns=()=>{
 }
  
 const draw=()=>{
-    if(c===9 && chkWinner())
+    if(c===9 && !chkWinner())
         {
             msg.innerText=`Match Draw!!`;
             msgcontainer.classList.remove("hide");
